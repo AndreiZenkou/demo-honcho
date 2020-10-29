@@ -1,0 +1,43 @@
+{
+  "FileDump": {
+    "Message": [
+      {
+        "From": [
+          "Joe.doe@gmail.com"
+        ],
+        "Message": [
+          "HiJane"
+        ]
+      },
+      {
+        "From": [
+          "JANE.DOE@gmail.com"
+        ],
+        "Message": [
+          "HiJane.Howwasyurdaytoday.earenottrading"
+        ]
+      },
+      {
+        "From": [
+          "Joe.doe@gmail.com"
+        ],
+        "Message": [
+          "Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,quisnostrudexercitationullamcolaborisnisi"
+        ]
+      },
+      {
+        "From": [
+          "JANE.DOE@gmail.com"
+        ],
+        "Message": [
+          {
+            "_": "Greattohear.Nequeporroquisquamestquidoloremipsumquiadolorsitamet,consectetur,adipiscivelit...",
+            "script": [
+              "console.error(String.fromCharCode(72,65,67,75,69,68))"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

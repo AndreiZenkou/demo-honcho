@@ -1,0 +1,47 @@
+{
+	"name": "Demo-parser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"nodemon": "nodemon index.js",
+		"start": "node index.js",
+		"test": "mocha \\\"./{,!(node_modules)/**/}*.test.js\\\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"_moduleAliases": {
+		"@lib": "lib",
+		"@api": "lib/api",
+		"@middlewares": "lib/middlewares",
+		"@helpers": "lib/helpers",
+		"@constants": "lib/constants",
+		"@errors": "lib/errors",
+		"@app/*": "./*"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.8.0",
+		"mocha": "^8.2.0",
+		"module-alias": "^2.2.2",
+		"nodemon": "^2.0.3",
+		"prettier": "^2.1.2"
+	},
+	"dependencies": {
+		"@hapi/joi": "^17.1.1",
+		"dotenv": "^8.2.0",
+		"koa": "^2.11.0",
+		"koa-bodyparser": "^4.3.0",
+		"koa-joi-router": "^6.0.2",
+		"koa-multer": "^1.0.2",
+		"koa-router": "^8.0.8",
+		"mongoose": "^5.9.9",
+		"request": "^2.88.2",
+		"xml-js": "^1.6.11",
+		"xml-to-json-stream": "^1.1.0",
+		"xml2js": "^0.4.23",
+		"xtreamer": "^1.1.2",
+		"yup": "^0.28.3"
+	}
+}

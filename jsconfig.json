@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"baseUrl": "./lib",
+		"paths": {
+			"@lib/*": ["lib/*"],
+			"@helpers/*": ["helpers/*"],
+			"@api/*": ["api/*"],
+			"@middlewares": ["middlewares"],
+			"@constants/*": ["constants/*"],
+			"@errors/*": ["errors/*"],
+			"@app/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}
+
